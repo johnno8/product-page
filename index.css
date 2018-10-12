@@ -14,8 +14,12 @@ body {
   display: grid;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
-  background:LightSkyBlue;
+  background-color: #2e3238;
   height: 50px;
   width: 100%;
   position: fixed;
@@ -30,22 +34,26 @@ nav {
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
-  font-size: 12px;
+  margin-right: 5px;
+  font-size: 14px;
 }
 
 .header-img-div {
   width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
 }
 
 #header-img {
   max-width: 100%;
   display: block;
   height: auto;
-  margin-top: 15px;
 }
 
 .nav-link {
   margin-right: 5px;
+  color: white;
 }
 
 .video-section {
