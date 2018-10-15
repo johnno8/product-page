@@ -63,9 +63,18 @@ nav {
 }
 
 .video-section {
-  background:LightSalmon;
-  height: 100vh;
   margin-top: 50px;
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-section iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .information {
