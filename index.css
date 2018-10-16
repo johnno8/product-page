@@ -111,7 +111,7 @@ a:active{
 }
 
 .price {
-  background:LightPink;
+  /*background:LightPink;*/
   padding-top: 50px; /*shifts the div down to clear the navbar*/
 }
 
@@ -120,10 +120,11 @@ a:active{
 }
 
 .price-card {
-  width: 80%;
+  /*width: 80%;*/
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
+  border: 2px solid black;
   text-align: center;
 }
 
@@ -139,17 +140,17 @@ a:active{
 }
 
 #price1 {
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   margin-top: 5vh;
 }
 
 #price2 {
-  background-color: grey;
+  /*background-color: grey;*/
   margin-top: 5vh;
 }
 
 #price3 {
-  background-color: green;
+  /*background-color: green;*/
   margin-top: 5vh;
 }
 
@@ -194,9 +195,14 @@ a:active{
     margin-left: auto;
     margin-right: auto;
   }
+
+  .price-card {
+    /*border: 2px solid black;*/
+    width: 80%;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   nav {
     margin-right: 20px;
     font-size: 16px;
