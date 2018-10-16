@@ -78,7 +78,7 @@ nav {
 .information {
   /*background:PaleTurquoise;    this*/
   padding-top: 50px; /*shifts the div down to clear the navbar*/
-  height: 100vh;
+  height: auto;
   line-height: 1.6;
 }
 
@@ -97,6 +97,17 @@ nav {
 #info2 {
   margin-left: 2.5%;
   margin-right: 2.5%;
+}
+
+.information a,
+a:visited,
+a:active{
+  text-decoration: none;
+  color: grey;
+}
+
+.information a:hover {
+  color: lightgrey;
 }
 
 .price {
@@ -140,7 +151,7 @@ nav {
   }
 
   .information {
-    height: 100vh;
+    height: auto;
   }
   .info-card {
     height: auto;
