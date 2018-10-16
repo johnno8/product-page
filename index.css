@@ -112,23 +112,45 @@ a:active{
 
 .price {
   background:LightPink;
+  padding-top: 50px; /*shifts the div down to clear the navbar*/
+}
+
+.price-container {
+  width: 100%;
 }
 
 .price-card {
-  width: 100%;
-  height: 100vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.price-card h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price-img {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
 #price1 {
   background-color: lightblue;
+  margin-top: 5vh;
 }
 
 #price2 {
   background-color: grey;
+  margin-top: 5vh;
 }
 
 #price3 {
   background-color: green;
+  margin-top: 5vh;
 }
 
 .contact {
@@ -140,7 +162,7 @@ a:active{
   background:Orange;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 321px) {
   nav {
     margin-right: 10px;
     font-size: 16px;
@@ -166,6 +188,11 @@ a:active{
   #info2 {
     margin-top: 10vh;
     margin-left: 10%;
+  }
+
+  .price-img {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -201,7 +228,7 @@ a:active{
     display: flex;
   }
 
-  .price-card {
+  .price-container {
     width: 33.33%;
   }
 }
