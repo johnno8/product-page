@@ -76,7 +76,6 @@ nav {
 }
 
 .information {
-  /*background:PaleTurquoise;    this*/
   padding-top: 50px; /*shifts the div down to clear the navbar*/
   height: auto;
   line-height: 1.6;
@@ -84,12 +83,9 @@ nav {
 
 .info-card {
   width: 95%;
- /* text-align: justify;
-  text-justify: inter-word;*/
 }
 
 #info1 {
-  /*padding-top: 50px;*/
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
@@ -111,7 +107,6 @@ a:active{
 }
 
 .price {
-  /*background:LightPink;*/
   padding-top: 50px; /*shifts the div down to clear the navbar*/
 }
 
@@ -120,7 +115,6 @@ a:active{
 }
 
 .price-card {
-  /*width: 80%;*/
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -140,27 +134,51 @@ a:active{
 }
 
 #price1 {
-  /*background-color: lightblue;*/
   margin-top: 5vh;
 }
 
 #price2 {
-  /*background-color: grey;*/
   margin-top: 5vh;
 }
 
 #price3 {
-  /*background-color: green;*/
   margin-top: 5vh;
 }
 
 .contact {
-  background:PaleGreen;
-  height: 95vh;
+  height: 90vh;
 }
 
-.footer {
-  background:Orange;
+.form-container {
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.input-field {
+  height: 20px;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+
+.submit {
+  margin: 2em auto;
+  background-color: #0079c2;
+  width: 100px;
+  height: 40px;
+  color: #fff; 
+  border-radius: 5px;
+  border: 0px solid;
+  display: block;
+}
+
+footer {
+  background-color: lightgrey; 
+  text-align: center;
 }
 
 @media (min-width: 321px) {
@@ -197,8 +215,12 @@ a:active{
   }
 
   .price-card {
-    /*border: 2px solid black;*/
     width: 80%;
+  }
+
+  .input-field {
+    width: 250px;
+    margin-top: 1em;
   }
 }
 
