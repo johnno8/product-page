@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  color: black;
+  display: grid;
+}
+
+a,
+a:visited,
+a:active{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+header {
+  background-color: #2e3238;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.header-img-div {
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+}
+
+#header-img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.nav-link {
+  margin-right: 5px;
+  color: white;
+}
+
+.video-section {
+  margin-top: 50px;
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-section iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.information {
+  padding-top: 50px; /*shifts the div down to clear the navbar*/
+  height: auto;
+  line-height: 1.6;
+}
+
+.info-card {
+  width: 95%;
+}
+
+#info1 {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+#info2 {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.information a,
+a:visited,
+a:active{
+  text-decoration: none;
+  color: grey;
+}
+
+.information a:hover {
+  color: lightgrey;
+}
+
+.price {
+  padding-top: 50px; /*shifts the div down to clear the navbar*/
+}
+
+.price-container {
+  width: 100%;
+}
+
+.price-card {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.price-card h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price-img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#price1 {
+  margin-top: 5vh;
+}
+
+#price2 {
+  margin-top: 5vh;
+}
+
+#price3 {
+  margin-top: 5vh;
+}
+
+.contact {
+  height: 90vh;
+}
+
+.form-container {
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.input-field {
+  height: 20px;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+
+.submit {
+  margin: 2em auto;
+  background-color: #0079c2;
+  width: 100px;
+  height: 40px;
+  color: #fff; 
+  border-radius: 5px;
+  border: 0px solid;
+  display: block;
+}
+
+footer {
+  background-color: lightgrey; 
+  text-align: center;
+}
+
+@media (min-width: 321px) {
+  nav {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+
+  .nav-link {
+    margin-right: 10px;
+  }
+
+  .information {
+    height: auto;
+  }
+  .info-card {
+    height: auto;
+    width: 80%
+  }
+
+  #info1 {
+    margin-top: 10vh;
+    margin-left: 10%;
+  }
+
+  #info2 {
+    margin-top: 10vh;
+    margin-left: 10%;
+  }
+
+  .price-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .price-card {
+    width: 80%;
+  }
+
+  .input-field {
+    width: 250px;
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 769px) {
+  nav {
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+  .nav-link {
+    margin-right: 30px;
+  }
+
+  .information {
+    height: 100vh;
+  }
+  .info-card {
+    height: auto;
+    width: 80%
+  }
+
+  #info1 {
+    margin-top: 15vh;
+    margin-left: 10%;
+  }
+
+  #info2 {
+    margin-top: 20vh;
+    margin-left: 10%;
+  }
+
+  .price {
+    display: flex;
+  }
+
+  .price-container {
+    width: 33.33%;
+  }
+}
