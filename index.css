@@ -95,6 +95,11 @@ nav {
   margin-right: 2.5%;
 }
 
+#info3 {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
 .information a,
 a:visited,
 a:active{
@@ -118,7 +123,7 @@ a:active{
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black;
+  border: 2px solid #c0c0c0;
   text-align: center;
 }
 
@@ -209,6 +214,11 @@ footer {
     margin-left: 10%;
   }
 
+  #info3 {
+    margin-top: 10vh;
+    margin-left: 10%;
+  }
+
   .price-img {
     margin-left: auto;
     margin-right: auto;
@@ -239,17 +249,23 @@ footer {
   }
   .info-card {
     height: auto;
-    width: 80%
+    /*width: 80%;*/
+    width: 70%;
   }
 
   #info1 {
     margin-top: 15vh;
-    margin-left: 10%;
+    margin-left: 15%;
   }
 
   #info2 {
-    margin-top: 20vh;
-    margin-left: 10%;
+    margin-top: 10vh;
+    margin-left: 15%;
+  }
+
+  #info3 {
+    margin-top: 10vh;
+    margin-left: 15%;
   }
 
   .price {
